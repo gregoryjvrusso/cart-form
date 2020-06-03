@@ -1,0 +1,15 @@
+import React from "react";
+import { string } from "prop-types";
+import { Container } from "./text.styles";
+
+const Text = ({ children, ...props }) => (
+  <Container {...props}>{children}</Container>
+);
+
+Text.propTypes = {
+  children: string.isRequired,
+};
+
+Text.displayName = "Text";
+
+export default Text;

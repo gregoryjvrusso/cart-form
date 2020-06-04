@@ -9,7 +9,9 @@ export default {
   fontFamily,
   colors: {
     texts: {
-      primary: "#000000",
+      gray: "#C9C9C9",
+      black: "#3C3C3C",
+      red: "#EB5757",
       warning: "#ed3737",
       white: "#FFFFFF",
     },
@@ -18,6 +20,8 @@ export default {
         gray: "#e5e5e5",
         grayDark: "#7d7d7d",
         blue: "#4eb0de",
+        red: "#DE4B4B",
+        white: "#FFFFFF",
       },
     },
   },

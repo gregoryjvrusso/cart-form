@@ -1,12 +1,16 @@
 const breakpoints = ["40em", "52em", "64em", "80em"];
-const space = [0, 4, 8, 16, 32, 64, 128, 256, 512];
-const fontFamily = "Roboto, Arial, Helvetica, sans-serif";
+const spaces = [0, 4, 8, 16, 20, 32, 64, 128, 256, 512];
+const fontFamily = 'Verdana, Roboto, Arial, Helvetica, sans-serif';
+const fontSizes = [12, 14, 16, 18, 20, 24, 32, 40, 56, 72];
+const fontWeights = { regular: 400, light: 300, medium: 500, semibold: 600, bold: 700 };
 
 export default {
   color: "#000000",
   breakpoints,
-  space,
+  spaces,
   fontFamily,
+  fontSizes,
+  fontWeights,
   colors: {
     texts: {
       gray: "#C9C9C9",

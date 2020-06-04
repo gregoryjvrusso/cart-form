@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import { theme } from "styled-tools";
 
 export const GlobalStyles = createGlobalStyle`
   html, body {
@@ -6,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     width: 100%;
   }
   * {
-    font-family: 'Arial', sans-serif;
+    font-family: ${theme.fontFamily};
     outline: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent;

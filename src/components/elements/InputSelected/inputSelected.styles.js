@@ -4,58 +4,59 @@ import { arrowBottom } from "../../../temp";
 import Text from "../Text";
 
 export const Container = styled.select`
-  border: 0;
+  appearance: none;
+  background: url(${arrowBottom}) no-repeat center right;
+  background-color: transparent;
+  border: ${theme("spaces.0")};
   border-bottom: 2px solid
     ${(props) =>
       props.error ? theme(`colors.texts.red`) : theme(`colors.texts.gray`)};
-  background-color: transparent;
-  width: 100%;
-  font-size: 17px;
+  font-size: ${theme("fontSizes.2")}px;
   user-select: none;
-  appearance: none;
-  background: url(${arrowBottom}) no-repeat center right;
+  width: 100%;
+
   &::placeholder {
     color: transparent;
   }
+
   ${(props) =>
     props.value &&
     css`
       ~ label {
-        top: 6px;
-        left: 5px;
-        font-size: 13px;
+        font-size: ${theme("fontSizes.0")}px;
         opacity: 0.6;
+        left: ${theme("spaces.2")}px;
+        top: ${theme("spaces.1")}px;
       }
     `}
 `;
 
 export const Option = styled.option`
-  height: 20px;
-  font-size: 15px;
   background: transparent;
   color: ${theme(`colors.texts.gray`)};
+  font-size: ${theme("fontSizes.2")}px;
+  height: ${theme("spaces.3")}px;
 `;
 
 export const Label = styled.label`
-  position: absolute;
+  font-size: ${theme("fontSizes.2")}px;
+  color: ${theme(`colors.texts.gray`)};
   pointer-events: none;
-  left: 10px;
-  top: 17px;
+  position: absolute;
+  left: ${theme("spaces.2")}px;
+  top: ${theme("spaces.4")}px;
   transition: 0.3s ease all;
-  font-size: 17px;
-  color: ${(props) =>
-    props.error ? theme(`colors.texts.red`) : theme(`colors.texts.gray`)};
 
   ${Container}:focus ~ & {
-    top: 6px;
-    left: 5px;
-    font-size: 13px;
+    font-size: ${theme("fontSizes.0")}px;
     opacity: 0.6;
+    left: ${theme("spaces.2")}px;
+    top: ${theme("spaces.1")}px;
   }
 `;
 
 export const TextMessage = styled(Text)`
-  font-size: 13px;
+  font-size: ${theme("fontSizes.0")}px;
   color: ${theme(`colors.texts.red`)};
-  margin-top: 0;
+  margin-top: ${theme("spaces.0")};
 `;

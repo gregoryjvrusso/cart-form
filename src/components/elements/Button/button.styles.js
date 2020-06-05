@@ -9,7 +9,7 @@ export const Container = styled.button`
   font-size: ${theme("fontSizes.3")}px;
   font-weight: ${theme("fontWeights.semibold")};
   letter-spacing: -0.01px;
-  padding:  ${theme("spaces.3")}px;
+  padding: ${theme("spaces.3")}px;
   text-align: center;
   width: 100%;
 `;

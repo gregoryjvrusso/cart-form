@@ -2,7 +2,7 @@ import React from "react";
 import { arrayOf, bool, shape, string } from "prop-types";
 import Flex from "../Flex";
 import Circle from "../Circle";
-import { ArrowLeft, TextBread } from "./breadcrumb.styles";
+import { ArrowRight, TextBread } from "./breadcrumb.styles";
 import { arrowBottom, check } from "../../../temp/index";
 
 const Breadcrumb = ({ data }) => (
@@ -20,7 +20,7 @@ const Breadcrumb = ({ data }) => (
           </Circle>
         )}
         <TextBread mr={2} ml={2}>{option.text}</TextBread>
-        {index < data.length - 1 && <ArrowLeft src={arrowBottom} />}
+        {index < data.length - 1 && <ArrowRight src={arrowBottom} />}
       </Flex>
     ))}
   </Flex>

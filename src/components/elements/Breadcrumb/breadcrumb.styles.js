@@ -7,7 +7,7 @@ export const TextBread = styled(Text)`
   font-size: ${theme("fontSizes.1")}px;
 `;
 
-export const ArrowLeft = styled.img`
+export const ArrowRight = styled.img`
   transform: rotate(270deg);
   margin-right: ${theme("spaces.2")}px;
   margin-left: ${theme("spaces.2")}px;

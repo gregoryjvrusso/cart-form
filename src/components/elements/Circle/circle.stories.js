@@ -20,4 +20,18 @@ storiesOf("Elements/Circle", module)
         <img src={check} alt={"checked"} />
       </Circle>
     </ThemeProvider>
+  ))
+  .add("black default", () => (
+    <ThemeProvider theme={theme}>
+      <Circle size="22" color="black">
+        1
+      </Circle>
+    </ThemeProvider>
+  ))
+  .add("black checked", () => (
+    <ThemeProvider theme={theme}>
+      <Circle size="22" color="black" checked>
+        <img src={check} alt={"checked"} />
+      </Circle>
+    </ThemeProvider>
   ));

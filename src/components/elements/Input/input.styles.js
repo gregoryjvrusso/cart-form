@@ -20,7 +20,7 @@ export const Container = styled(InputMask)`
 export const Label = styled.label`
   font-size: ${theme("fontSizes.2")}px;
   color: ${theme(`colors.texts.gray`)};
-  left: ${theme("spaces.2")}px;
+  left: ${theme("spaces.0")}px;
   pointer-events: none;
   position: absolute;
   top: ${theme("spaces.4")}px;
@@ -31,7 +31,7 @@ export const Label = styled.label`
   ${Container}:valid ~ & {
     font-size: ${theme("fontSizes.0")}px;
     opacity: 0.6;
-    left: ${theme("spaces.2")}px;
+    left: ${theme("spaces.0")}px;
     top: ${theme("spaces.1")}px;
   }
 `;
@@ -40,5 +40,5 @@ export const TextMessage = styled(Text)`
   font-family: ${theme("fontFamily.0")};
   font-size: ${theme("fontSizes.0")}px;
   color: ${theme(`colors.texts.red`)};
-  margin-top: ${theme("spaces.0")};
+  margin: ${theme("spaces.0")};
 `;

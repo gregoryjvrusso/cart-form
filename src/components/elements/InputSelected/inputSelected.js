@@ -10,15 +10,20 @@ const InputSelected = ({
   options,
   messageError,
   value,
+  setValue,
+  error,
+  setError,
+  onInputBlur,
   ...props
 }) => (
-  <Box pt={3}>
+  <Box width={"100%"} pt={3}>
     <Container
       name={name}
       placeholder={textLabel}
       value={value}
       required
-      onChange={(e) => onInputChange(e)}
+      onBlur={(e) => onInputBlur(e, error, setError, name)}
+      onChange={(e) => onInputChange(e, setValue)}
       {...props}
     >
       {options.map((e) => (
@@ -27,8 +32,10 @@ const InputSelected = ({
         </Option>
       ))}
     </Container>
-    <Label forHtml={name} {...props}>{textLabel}</Label>
-    {props.error && <TextMessage>{messageError}</TextMessage>}
+    <Label forHtml={name} {...props}>
+      {textLabel}
+    </Label>
+    {error[name] && <TextMessage>{messageError}</TextMessage>}
   </Box>
 );
 
@@ -44,12 +51,14 @@ InputSelected.propTypes = {
     })
   ),
   value: string,
+  setValue: func,
 };
 
 InputSelected.defaultProps = {
   messageError: "",
   options: [],
   value: "",
+  setValue: undefined,
 };
 
 InputSelected.displayName = "InputSelected";

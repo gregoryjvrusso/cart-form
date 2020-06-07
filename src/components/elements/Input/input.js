@@ -7,13 +7,18 @@ const Input = ({
   name,
   textLabel,
   mask,
+  onInputBlur,
   onInputChange,
   messageError,
   value,
+  setValue,
+  regex,
+  setError,
+  error,
   ...props
 }) => {
   return (
-    <Box pt={3}>
+    <Box width={"100%"} pt={3}>
       <Container
         type="input"
         placeholder={textLabel}
@@ -22,13 +27,16 @@ const Input = ({
         required
         value={value}
         mask={mask}
-        onChange={(e) => onInputChange(e)}
+        setValue={setValue}
+        onBlur={(e) => onInputBlur(e, error, setError, name, regex)}
+        onChange={(e) => onInputChange(e, setValue)}
         {...props}
+        maskChar={null}
       />
       <Label htmlFor={name} {...props}>
         {textLabel}
       </Label>
-      {props.error && <TextMessage>{messageError}</TextMessage>}
+      {error[name] && <TextMessage>{messageError}</TextMessage>}
     </Box>
   );
 };
@@ -40,12 +48,14 @@ Input.propTypes = {
   messageError: string,
   onInputChange: func.isRequired,
   value: string,
+  setValue: func,
 };
 
 Input.defaultProps = {
   mask: undefined,
   messageError: string,
   value: "",
+  setValue: undefined,
 };
 
 Input.displayName = "Input";

@@ -2,7 +2,7 @@ import React from "react";
 import { storiesOf } from "@storybook/react";
 import { ThemeProvider } from "styled-components";
 import theme from "../../../common/theme";
-import { check } from "../../../temp/index";
+import { check } from "../../../assets/index";
 
 import Circle from "../Circle";
 

@@ -1,7 +1,7 @@
 import React from "react";
 import Flex from "../Flex";
 import { ArrowLeft, TextComeBack } from "./comeBack.styles";
-import { arrowWhite } from "../../../temp/index";
+import { arrowWhite } from "../../../assets/index";
 import Box from "../Box";
 
 const ComeBack = () => (

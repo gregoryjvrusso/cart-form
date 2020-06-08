@@ -1,9 +1,9 @@
 import React from "react";
-import { string } from "prop-types";
+import { array } from "prop-types";
 import Circle from "../Circle";
 import Flex from "../Flex";
 import { TextTitle } from "./title.styles";
-import { card } from "../../../temp/index";
+import { card } from "../../../assets/index";
 
 const Title = ({ title }) => (
   <Flex p={2} justifyContent="center" alignItems="center">
@@ -18,7 +18,7 @@ const Title = ({ title }) => (
 );
 
 Title.propTypes = {
-  title: string.isRequired,
+  title: array.isRequired,
 };
 
 Title.displayName = "Title";

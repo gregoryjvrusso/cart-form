@@ -1,0 +1,9 @@
+export { default as arrowBottom } from "./svg/arrow-bottom.svg";
+export { default as arrowWhite } from "./svg/arrow-white.svg";
+export { default as backCardCheck } from "./svg/back-card-check.svg";
+export { default as backCardDefault } from "./svg/back-card-default.svg";
+export { default as card } from "./svg/card.svg";
+export { default as check } from "./svg/check.svg";
+export { default as frontCardCheck } from "./svg/front-card-check.svg";
+export { default as frontCardDefault } from "./svg/front-card-default.svg";
+export { default as visa } from "./png/visa.png";

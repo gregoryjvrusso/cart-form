@@ -3,7 +3,7 @@ import { arrayOf, bool, shape, string } from "prop-types";
 import Flex from "../Flex";
 import Circle from "../Circle";
 import { ArrowRight, TextBread } from "./breadcrumb.styles";
-import { arrowBottom, check } from "../../../temp/index";
+import { arrowBottom, check } from "../../../assets/index";
 
 const Breadcrumb = ({ data }) => (
   <Flex>

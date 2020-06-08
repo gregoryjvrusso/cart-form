@@ -1,0 +1,1 @@
+export default ["Adicione um novo", "cartão de crédito"];

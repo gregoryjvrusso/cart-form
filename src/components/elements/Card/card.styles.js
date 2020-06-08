@@ -6,7 +6,7 @@ import {
   backCardDefault,
   frontCardCheck,
   frontCardDefault,
-} from "../../../temp/index";
+} from "../../../assets/index";
 import { theme } from "styled-tools";
 
 export const Container = styled(Flex)`

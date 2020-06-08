@@ -1,5 +1,5 @@
 import React from "react";
-import { string } from "prop-types";
+import { array, oneOfType, string } from "prop-types";
 import { Container } from "./text.styles";
 
 const Text = ({ children, ...props }) => (
@@ -7,7 +7,7 @@ const Text = ({ children, ...props }) => (
 );
 
 Text.propTypes = {
-  children: string.isRequired,
+  children: oneOfType([ array, string ]).isRequired,
 };
 
 Text.displayName = "Text";

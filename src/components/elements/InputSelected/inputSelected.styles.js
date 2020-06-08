@@ -1,6 +1,6 @@
 import { theme } from "styled-tools";
 import styled, { css } from "styled-components";
-import { arrowBottom } from "../../../temp";
+import { arrowBottom } from "../../../assets";
 import Text from "../Text";
 
 export const Container = styled.select`

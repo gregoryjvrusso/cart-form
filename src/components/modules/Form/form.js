@@ -9,16 +9,11 @@ import {
   onInputChange,
   onInputBlur,
   onInputSelectBlur,
+  handleSubmit,
 } from "../../../utils/formEvent";
 import { Container, FlexForm } from "./form.styles";
 
-const Form = ({ dataSelect, onSubmit }) => {
-  const [name, setName] = useState("");
-  const [card, setCard] = useState("");
-  const [date, setDate] = useState("");
-  const [cvv, setCvv] = useState("");
-  const [subdivision, setSubdivision] = useState("");
-
+const Form = ({ dataSelect, ...props }) => {
   const errorData = {
     card: false,
     name: false,
@@ -30,13 +25,13 @@ const Form = ({ dataSelect, onSubmit }) => {
 
   return (
     <Flex width={"100%"}>
-      <Container onSubmit={onSubmit} width={"100%"} id="form">
+      <Container onSubmit={(e) => handleSubmit(e, error)} width={"100%"} id="form">
         <FlexForm>
           <Input
             name="card"
             textLabel="Número do cartão"
-            value={card}
-            setValue={setCard}
+            value={props.card}
+            setValue={props.setCard}
             error={error}
             setError={setError}
             messageError="Número de cartão inválido"
@@ -50,8 +45,8 @@ const Form = ({ dataSelect, onSubmit }) => {
           <Input
             name="name"
             textLabel="Nome"
-            value={name}
-            setValue={setName}
+            value={props.name}
+            setValue={props.setName}
             error={error}
             setError={setError}
             messageError="Insira seu nome completo"
@@ -65,8 +60,8 @@ const Form = ({ dataSelect, onSubmit }) => {
             <Input
               name="date"
               textLabel="Validade"
-              value={date}
-              setValue={setDate}
+              value={props.date}
+              setValue={props.setDate}
               error={error}
               setError={setError}
               messageError="Data inválida"
@@ -80,8 +75,8 @@ const Form = ({ dataSelect, onSubmit }) => {
             <Input
               name="cvv"
               textLabel="CVV"
-              value={cvv}
-              setValue={setCvv}
+              value={props.cvv}
+              setValue={props.setCvv}
               error={error}
               setError={setError}
               messageError="Código inválido"
@@ -96,8 +91,8 @@ const Form = ({ dataSelect, onSubmit }) => {
           <InputSelected
             onInputBlur={onInputSelectBlur}
             onInputChange={onInputChange}
-            value={subdivision}
-            setValue={setSubdivision}
+            value={props.subdivision}
+            setValue={props.setSubdivision}
             name="subdivision"
             options={dataSelect}
             textLabel="Quantidade de parcelas"
@@ -119,7 +114,6 @@ const Form = ({ dataSelect, onSubmit }) => {
 };
 
 Form.propTypes = {
-  onSubmit: func.isRequired,
   dataSelect: arrayOf(
     shape({
       value: string,

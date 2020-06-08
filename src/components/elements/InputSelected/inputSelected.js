@@ -1,6 +1,6 @@
 import React from "react";
 import Box from "../Box";
-import { arrayOf, func, shape, string } from "prop-types";
+import { arrayOf, func, shape, string, object } from "prop-types";
 import { Container, Option, Label, TextMessage } from "./inputSelected.styles";
 
 const InputSelected = ({
@@ -23,7 +23,7 @@ const InputSelected = ({
       value={value}
       required
       onBlur={(e) => onInputBlur(e, error, setError, name)}
-      onChange={(e) => onInputChange(e, setValue)}
+      onChange={(e) => onInputChange(e, setValue, value, name)}
       {...props}
     >
       {options.map((e) => (
@@ -52,13 +52,19 @@ InputSelected.propTypes = {
   ),
   value: string,
   setValue: func,
+  error: object,
+  setError: func,
+  onInputBlur: func,
 };
 
 InputSelected.defaultProps = {
   messageError: "",
   options: [],
   value: "",
+  error: {},
   setValue: undefined,
+  setError: undefined,
+  onInputBlur: undefined,
 };
 
 InputSelected.displayName = "InputSelected";

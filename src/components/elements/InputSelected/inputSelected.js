@@ -22,12 +22,13 @@ const InputSelected = ({
       placeholder={textLabel}
       value={value}
       required
+      data-testid="input-select"
       onBlur={(e) => onInputBlur(e, error, setError, name)}
       onChange={(e) => onInputChange(e, setValue, value, name)}
       {...props}
     >
       {options.map((e) => (
-        <Option key={e.value} value={e.value}>
+        <Option data-testid="options" key={e.value} value={e.value}>
           {e.text}
         </Option>
       ))}

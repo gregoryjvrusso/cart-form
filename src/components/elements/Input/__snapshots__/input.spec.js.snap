@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm jpulAN"
+  data-testid="box"
+  width="100%"
+>
+  <input
+    class="sc-AxiKw eQYNKT"
+    data-testid="input"
+    id="nome"
+    name="nome"
+    placeholder="Nome"
+    required=""
+    type="input"
+    value=""
+  />
+  <label
+    class="sc-AxhCb bssWpm"
+    for="nome"
+  >
+    Nome
+  </label>
+</div>
+`;

@@ -3,7 +3,7 @@ import { Container } from "./circle.styles";
 import { arrayOf, bool, element, string, node, oneOfType } from "prop-types";
 
 const Circle = ({ checked, children, color, size }) => (
-  <Container checked={checked} color={color} size={size}>
+  <Container data-testid="circle" checked={checked} color={color} size={size}>
     {children}
   </Container>
 );

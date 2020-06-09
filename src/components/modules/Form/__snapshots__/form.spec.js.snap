@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxirZ fBnoWH sc-AxiKw bKsCdD"
+  data-testid="flex"
+  width="100%"
+>
+  <form
+    class="sc-fzplWN jHAIBM"
+    id="form"
+    width="100%"
+  >
+    <div
+      class="sc-AxirZ lgJgCc sc-AxiKw WlbxU sc-fzpans cKVhrP"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxirZ vJexS"
+        data-testid="box"
+        width="100%"
+      >
+        <input
+          class="sc-AxhUy bFivQe"
+          data-testid="input"
+          id="card"
+          name="card"
+          placeholder="Número do cartão"
+          regex="[object Object]"
+          required=""
+          type="input"
+          value=""
+        />
+        <label
+          class="sc-AxgMl eMytDd"
+          for="card"
+        >
+          Número do cartão
+        </label>
+      </div>
+    </div>
+    <div
+      class="sc-AxirZ lgJgCc sc-AxiKw WlbxU sc-fzpans cKVhrP"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxirZ vJexS"
+        data-testid="box"
+        width="100%"
+      >
+        <input
+          class="sc-AxhUy bFivQe"
+          data-testid="input"
+          id="name"
+          name="name"
+          placeholder="Nome"
+          regex="[object Object]"
+          required=""
+          type="input"
+          value=""
+        />
+        <label
+          class="sc-AxgMl eMytDd"
+          for="name"
+        >
+          Nome
+        </label>
+      </div>
+    </div>
+    <div
+      class="sc-AxirZ lgJgCc sc-AxiKw WlbxU sc-fzpans cKVhrP"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxirZ lgJgCc sc-AxiKw WlbxU sc-fzpans cKVhrP"
+        data-testid="flex"
+      >
+        <div
+          class="sc-AxirZ vJexS"
+          data-testid="box"
+          width="100%"
+        >
+          <input
+            class="sc-AxhUy bFivQe"
+            data-testid="input"
+            id="date"
+            name="date"
+            placeholder="Validade"
+            regex="[object Object]"
+            required=""
+            type="input"
+            value=""
+          />
+          <label
+            class="sc-AxgMl eMytDd"
+            for="date"
+          >
+            Validade
+          </label>
+        </div>
+      </div>
+      <div
+        class="sc-AxirZ iJPJzN sc-AxiKw WlbxU sc-fzpans cKVhrP"
+        data-testid="flex"
+      >
+        <div
+          class="sc-AxirZ vJexS"
+          data-testid="box"
+          width="100%"
+        >
+          <input
+            class="sc-AxhUy bFivQe"
+            data-testid="input"
+            id="cvv"
+            name="cvv"
+            placeholder="CVV"
+            regex="[object Object]"
+            required=""
+            type="input"
+            value=""
+          />
+          <label
+            class="sc-AxgMl eMytDd"
+            for="cvv"
+          >
+            CVV
+          </label>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxirZ lgJgCc sc-AxiKw WlbxU sc-fzpans cKVhrP"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxirZ vJexS"
+        data-testid="box"
+        width="100%"
+      >
+        <select
+          class="sc-Axmtr egUstk"
+          data-testid="input-select"
+          name="subdivision"
+          placeholder="Quantidade de parcelas"
+          required=""
+        >
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value=""
+          />
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="1"
+          >
+            Parcelar em 1 vez
+          </option>
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="2"
+          >
+            Parcelar em 2 vezes
+          </option>
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="3"
+          >
+            Parcelar em 3 vezes
+          </option>
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="4"
+          >
+            Parcelar em 4 vezes
+          </option>
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="5"
+          >
+            Parcelar em 5 vezes
+          </option>
+          <option
+            class="sc-AxmLO btQQyJ"
+            data-testid="options"
+            value="6"
+          >
+            Parcelar em 6 vezes
+          </option>
+        </select>
+        <label
+          class="sc-fzozJi iivSCe"
+        >
+          Quantidade de parcelas
+        </label>
+      </div>
+    </div>
+    <div
+      class="sc-AxirZ hPIDTq sc-AxiKw fveomK"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxirZ jdCCXI sc-AxiKw ewUtxs"
+        data-testid="flex"
+        width="100%,100%,50%"
+      >
+        <button
+          class="sc-AxjAm eEzdfU"
+          data-testid="button"
+        >
+          CONTINUAR
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

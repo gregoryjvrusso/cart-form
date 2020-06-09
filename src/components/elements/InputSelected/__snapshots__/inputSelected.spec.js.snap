@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputSelected component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm jpulAN"
+  data-testid="box"
+  width="100%"
+>
+  <select
+    class="sc-AxiKw kEbYpS"
+    data-testid="input-select"
+    name="parcelas"
+    placeholder="Quantidade de parcelas"
+    required=""
+  >
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="1"
+    >
+      Parcelar em 1 vez
+    </option>
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="2"
+    >
+      Parcelar em 2 vezes
+    </option>
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="3"
+    >
+      Parcelar em 3 vezes
+    </option>
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="4"
+    >
+      Parcelar em 4 vezes
+    </option>
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="5"
+    >
+      Parcelar em 5 vezes
+    </option>
+    <option
+      class="sc-AxhCb cLsAfa"
+      data-testid="options"
+      value="6"
+    >
+      Parcelar em 6 vezes
+    </option>
+  </select>
+  <label
+    class="sc-AxhUy TMHKD"
+  >
+    Quantidade de parcelas
+  </label>
+</div>
+`;

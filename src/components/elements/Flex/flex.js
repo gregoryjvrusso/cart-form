@@ -3,7 +3,9 @@ import { element, string, oneOfType, arrayOf, node } from "prop-types";
 import { Container } from "./flex.styles";
 
 const Flex = ({ children, ...props }) => (
-  <Container {...props}>{children}</Container>
+  <Container data-testid="flex" {...props}>
+    {children}
+  </Container>
 );
 
 Flex.propTypes = {

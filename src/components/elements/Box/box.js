@@ -3,7 +3,7 @@ import { element, string, oneOfType, arrayOf, node } from 'prop-types';
 import { Container } from './box.styles';
 
 const Box = ({ children, ...props }) => (
-  <Container {...props}>{children}</Container>
+  <Container data-testid="box" {...props}>{children}</Container>
 )
 
 Box.propTypes = {

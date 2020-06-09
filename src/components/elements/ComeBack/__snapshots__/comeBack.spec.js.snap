@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ComeBack component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm hVkxHI sc-AxirZ gLMeKs"
+  data-testid="flex"
+  width="100%"
+>
+  <img
+    alt="botão voltar"
+    class="sc-AxhCb cmyoQP"
+    src="arrow-white.svg"
+  />
+  <div
+    class="sc-AxjAm fSzghi sc-AxirZ hzUFUl"
+    data-testid="flex"
+    display="flex,flex,none"
+    width="100%"
+  >
+    <p
+      class="sc-AxiKw dneoXV sc-AxhUy jEDGwC"
+      data-testid="text"
+    >
+      <span>
+        Etapa 2
+      </span>
+       de 3
+    </p>
+  </div>
+  <div
+    class="sc-AxjAm kvAEpy"
+    data-testid="box"
+    display="none,none,block"
+  >
+    <p
+      class="sc-AxiKw dneoXV sc-AxhUy jEDGwC"
+      data-testid="text"
+    >
+      Alterar forma de pagamento
+    </p>
+  </div>
+</div>
+`;

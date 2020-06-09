@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Flex component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm hmofGH sc-AxirZ kpHoSj"
+  color="#fff"
+  data-testid="flex"
+  width="0.5"
+>
+  <div />
+</div>
+`;

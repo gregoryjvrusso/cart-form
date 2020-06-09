@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumb component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm bjcYmf sc-AxirZ gIeogg"
+  data-testid="flex"
+>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw dFxbwV"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <img
+        alt="1"
+        src="check.svg"
+      />
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Carrinho
+    </p>
+    <img
+      class="sc-AxgMl lfVWhc"
+      src="arrow-bottom.svg"
+    />
+  </div>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw cDKsYq"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <p
+        class="sc-AxhCb fSxDNJ sc-AxhUy ccEAFj"
+        data-testid="text"
+      >
+        2
+      </p>
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Pagamento
+    </p>
+    <img
+      class="sc-AxgMl lfVWhc"
+      src="arrow-bottom.svg"
+    />
+  </div>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw cDKsYq"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <p
+        class="sc-AxhCb fSxDNJ sc-AxhUy ccEAFj"
+        data-testid="text"
+      >
+        3
+      </p>
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Confirmação
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Breadcrumb component deve conseguir renderizar [snapshot] com 2 links 1`] = `
+<div
+  class="sc-AxjAm bjcYmf sc-AxirZ gIeogg"
+  data-testid="flex"
+>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw dFxbwV"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <img
+        alt="1"
+        src="check.svg"
+      />
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Carrinho
+    </p>
+    <img
+      class="sc-AxgMl lfVWhc"
+      src="arrow-bottom.svg"
+    />
+  </div>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw dFxbwV"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <img
+        alt="2"
+        src="check.svg"
+      />
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Pagamento
+    </p>
+    <img
+      class="sc-AxgMl lfVWhc"
+      src="arrow-bottom.svg"
+    />
+  </div>
+  <div
+    class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw cDKsYq"
+      color="red"
+      data-testid="circle"
+      size="22"
+    >
+      <p
+        class="sc-AxhCb fSxDNJ sc-AxhUy ccEAFj"
+        data-testid="text"
+      >
+        3
+      </p>
+    </div>
+    <p
+      class="sc-AxhCb hgfAfG sc-AxhUy ccEAFj"
+      data-testid="text"
+    >
+      Confirmação
+    </p>
+  </div>
+</div>
+`;

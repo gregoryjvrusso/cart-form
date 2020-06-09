@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkout component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm kHbFzB sc-AxirZ jAGgHV"
+  data-testid="flex"
+  height="100%"
+>
+  <div
+    class="sc-AxjAm czlwfj sc-AxirZ jOTZXE"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm hVkxHI sc-AxirZ gLMeKs"
+      data-testid="flex"
+      width="100%"
+    >
+      <img
+        alt="botão voltar"
+        class="sc-AxhCb cmyoQP"
+        src="arrow-white.svg"
+      />
+      <div
+        class="sc-AxjAm fSzghi sc-AxirZ hzUFUl"
+        data-testid="flex"
+        display="flex,flex,none"
+        width="100%"
+      >
+        <p
+          class="sc-AxiKw dneoXV sc-AxhUy jEDGwC"
+          data-testid="text"
+        >
+          <span>
+            Etapa 2
+          </span>
+           de 3
+        </p>
+      </div>
+      <div
+        class="sc-AxjAm kvAEpy"
+        data-testid="box"
+        display="none,none,block"
+      >
+        <p
+          class="sc-AxiKw dneoXV sc-AxhUy jEDGwC"
+          data-testid="text"
+        >
+          Alterar forma de pagamento
+        </p>
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm fdSDWf sc-AxirZ lbZIck"
+      data-testid="flex"
+    >
+      <div
+        class="sc-AxjAm jndxDJ sc-AxirZ etMrKN sc-AxgMl dYlZkt"
+        color="white"
+        data-testid="circle"
+        size="50"
+      >
+        <img
+          alt="card"
+          src="card.svg"
+        />
+      </div>
+      <h1
+        class="sc-AxheI jBVNOH"
+        data-testid="text-title"
+      >
+        Adicione um novo
+         
+        <br />
+        cartão de crédito
+      </h1>
+    </div>
+    <div
+      class="sc-AxjAm hVkxHI sc-AxirZ bkjVjP"
+      data-testid="flex"
+      width="100%"
+    >
+      <div
+        class="sc-AxjAm bjcYmf sc-AxirZ deyNlV"
+        data-testid="flex"
+      >
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-Axmtr fmHkOK"
+          data-testid="card-front"
+        >
+          <div
+            class="sc-AxjAm hVkxHI sc-AxirZ hfHaOm"
+            data-testid="flex"
+            width="100%"
+          >
+            <p
+              class="sc-AxiKw dneoXV sc-AxmLO kYsjpW"
+              data-testid="text"
+            >
+              ****
+            </p>
+            <p
+              class="sc-AxiKw dneoXV sc-AxmLO kYsjpW"
+              data-testid="text"
+            >
+              ****
+            </p>
+            <p
+              class="sc-AxiKw dneoXV sc-AxmLO kYsjpW"
+              data-testid="text"
+            >
+              ****
+            </p>
+            <p
+              class="sc-AxiKw dneoXV sc-AxmLO kYsjpW"
+              data-testid="text"
+            >
+              ****
+            </p>
+          </div>
+          <div
+            class="sc-AxjAm ifdGQC sc-AxirZ hfHaOm"
+            data-testid="flex"
+            width="100%"
+          >
+            <p
+              class="sc-AxiKw dneoXV sc-fzozJi edNaYS"
+              data-testid="text"
+            >
+              NOME DO TITULAR
+            </p>
+            <p
+              class="sc-AxiKw dneoXV sc-fzozJi edNaYS"
+              data-testid="text"
+            >
+              00/00
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-AxjAm kSYwxl sc-AxirZ gAfuIs"
+    data-testid="flex"
+  >
+    <div
+      class="sc-AxjAm gyciKy sc-AxirZ dzqATn"
+      data-testid="flex"
+      display="none,none,flex"
+    >
+      <div
+        class="sc-AxjAm bjcYmf sc-AxirZ gIeogg"
+        data-testid="flex"
+      >
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxgMl hzRPvW"
+            color="red"
+            data-testid="circle"
+            size="22"
+          >
+            <img
+              alt="1"
+              src="check.svg"
+            />
+          </div>
+          <p
+            class="sc-AxiKw dHboKO sc-fzpans iZSFS"
+            data-testid="text"
+          >
+            Carrinho
+          </p>
+          <img
+            class="sc-fzplWN bXrmtS"
+            src="arrow-bottom.svg"
+          />
+        </div>
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxgMl bCiyvh"
+            color="red"
+            data-testid="circle"
+            size="22"
+          >
+            <p
+              class="sc-AxiKw dneoXV sc-fzpans iZSFS"
+              data-testid="text"
+            >
+              2
+            </p>
+          </div>
+          <p
+            class="sc-AxiKw dHboKO sc-fzpans iZSFS"
+            data-testid="text"
+          >
+            Pagamento
+          </p>
+          <img
+            class="sc-fzplWN bXrmtS"
+            src="arrow-bottom.svg"
+          />
+        </div>
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ lbZIck"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxgMl bCiyvh"
+            color="red"
+            data-testid="circle"
+            size="22"
+          >
+            <p
+              class="sc-AxiKw dneoXV sc-fzpans iZSFS"
+              data-testid="text"
+            >
+              3
+            </p>
+          </div>
+          <p
+            class="sc-AxiKw dHboKO sc-fzpans iZSFS"
+            data-testid="text"
+          >
+            Confirmação
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="sc-AxjAm hVkxHI sc-AxirZ dztBxX"
+      data-testid="flex"
+      width="100%"
+    >
+      <form
+        class="sc-fzpjYC dKHZsp"
+        id="form"
+        width="100%"
+      >
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-fzoXzr knlveE"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm jpulAN"
+            data-testid="box"
+            width="100%"
+          >
+            <input
+              class="sc-fznKkj cboOXL"
+              data-testid="input"
+              id="card"
+              name="card"
+              placeholder="Número do cartão"
+              regex="[object Object]"
+              required=""
+              type="input"
+              value=""
+            />
+            <label
+              class="sc-fznZeY kFTFxa"
+              for="card"
+            >
+              Número do cartão
+            </label>
+          </div>
+        </div>
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-fzoXzr knlveE"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm jpulAN"
+            data-testid="box"
+            width="100%"
+          >
+            <input
+              class="sc-fznKkj cboOXL"
+              data-testid="input"
+              id="name"
+              name="name"
+              placeholder="Nome"
+              regex="[object Object]"
+              required=""
+              type="input"
+              value=""
+            />
+            <label
+              class="sc-fznZeY kFTFxa"
+              for="name"
+            >
+              Nome
+            </label>
+          </div>
+        </div>
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-fzoXzr knlveE"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-fzoXzr knlveE"
+            data-testid="flex"
+          >
+            <div
+              class="sc-AxjAm jpulAN"
+              data-testid="box"
+              width="100%"
+            >
+              <input
+                class="sc-fznKkj cboOXL"
+                data-testid="input"
+                id="date"
+                name="date"
+                placeholder="Validade"
+                regex="[object Object]"
+                required=""
+                type="input"
+                value=""
+              />
+              <label
+                class="sc-fznZeY kFTFxa"
+                for="date"
+              >
+                Validade
+              </label>
+            </div>
+          </div>
+          <div
+            class="sc-AxjAm gQhXCm sc-AxirZ gIeogg sc-fzoXzr knlveE"
+            data-testid="flex"
+          >
+            <div
+              class="sc-AxjAm jpulAN"
+              data-testid="box"
+              width="100%"
+            >
+              <input
+                class="sc-fznKkj cboOXL"
+                data-testid="input"
+                id="cvv"
+                name="cvv"
+                placeholder="CVV"
+                regex="[object Object]"
+                required=""
+                type="input"
+                value=""
+              />
+              <label
+                class="sc-fznZeY kFTFxa"
+                for="cvv"
+              >
+                CVV
+              </label>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-AxjAm bjcYmf sc-AxirZ gIeogg sc-fzoXzr knlveE"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm jpulAN"
+            data-testid="box"
+            width="100%"
+          >
+            <select
+              class="sc-fzqBZW iCFEko"
+              data-testid="input-select"
+              name="subdivision"
+              placeholder="Quantidade de parcelas"
+              required=""
+            >
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value=""
+              />
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="1"
+              >
+                Parcelar em 1 vez
+              </option>
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="2"
+              >
+                Parcelar em 2 vezes
+              </option>
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="3"
+              >
+                Parcelar em 3 vezes
+              </option>
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="4"
+              >
+                Parcelar em 4 vezes
+              </option>
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="5"
+              >
+                Parcelar em 5 vezes
+              </option>
+              <option
+                class="sc-fzqNJr glwKAh"
+                data-testid="options"
+                value="6"
+              >
+                Parcelar em 6 vezes
+              </option>
+            </select>
+            <label
+              class="sc-fzoyAV emgsqt"
+            >
+              Quantidade de parcelas
+            </label>
+          </div>
+        </div>
+        <div
+          class="sc-AxjAm kSfhmd sc-AxirZ lnwZBu"
+          data-testid="flex"
+        >
+          <div
+            class="sc-AxjAm kIdDAz sc-AxirZ gvUUMc"
+            data-testid="flex"
+            width="100%,100%,50%"
+          >
+            <button
+              class="sc-fznyAO jDWIW"
+              data-testid="button"
+            >
+              CONTINUAR
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

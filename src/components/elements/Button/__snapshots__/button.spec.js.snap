@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component deve conseguir renderizar [snapshot] 1`] = `
+<button
+  class="sc-AxjAm eEzdfU"
+  data-testid="button"
+>
+  Clique aqui
+</button>
+`;

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm caeAtN sc-AxirZ iWzAtR sc-AxiKw cDKsYq"
+  color="red"
+  data-testid="circle"
+  size="22"
+>
+  1
+</div>
+`;

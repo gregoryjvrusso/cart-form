@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title component deve conseguir renderizar [snapshot] 1`] = `
+<div
+  class="sc-AxjAm fdSDWf sc-AxirZ lbZIck"
+  data-testid="flex"
+>
+  <div
+    class="sc-AxjAm jndxDJ sc-AxirZ etMrKN sc-AxiKw yQzSy"
+    color="white"
+    data-testid="circle"
+    size="50"
+  >
+    <img
+      alt="card"
+      src="card.svg"
+    />
+  </div>
+  <h1
+    class="sc-AxhUy bDxBeX"
+    data-testid="text-title"
+  >
+    Adicione um novo
+     
+    <br />
+    cartão de crédito
+  </h1>
+</div>
+`;

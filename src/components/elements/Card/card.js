@@ -16,6 +16,7 @@ const Card = ({
   <>
     {position && (
       <Container
+        data-testid="card-front"
         front
         onClick={() => onClickCard(setPosition, position)}
         {...props}
@@ -38,6 +39,7 @@ const Card = ({
     )}
     {!position && (
       <Container
+        data-testid="card-back"
         onClick={() => onClickCard(setPosition, position)}
         {...props}
       ></Container>

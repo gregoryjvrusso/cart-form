@@ -3,7 +3,7 @@ import { array, oneOfType, string } from "prop-types";
 import { Container } from "./text.styles";
 
 const Text = ({ children, ...props }) => (
-  <Container {...props}>{children}</Container>
+  <Container data-testid="text" {...props}>{children}</Container>
 );
 
 Text.propTypes = {

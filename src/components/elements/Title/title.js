@@ -10,7 +10,7 @@ const Title = ({ title }) => (
     <Circle size="50" color="white">
       <img alt="card" src={card} />
     </Circle>
-    <TextTitle as={"h1"}>
+    <TextTitle data-testid="text-title" as={"h1"}>
       {title[0]} <br />
       {title[1]}
     </TextTitle>
@@ -22,6 +22,5 @@ Title.propTypes = {
 };
 
 Title.displayName = "Title";
-
 
 export default Title;

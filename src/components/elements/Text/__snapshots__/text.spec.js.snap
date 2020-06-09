@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text component deve conseguir renderizar [snapshot] 1`] = `
+<p
+  class="sc-AxjAm dsBzxu"
+  data-testid="text"
+>
+  Texto
+</p>
+`;

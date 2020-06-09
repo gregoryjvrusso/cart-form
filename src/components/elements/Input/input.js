@@ -20,6 +20,7 @@ const Input = ({
     <Container
       type="input"
       placeholder={textLabel}
+      data-testid="input"
       name={name}
       id={name}
       required
@@ -57,6 +58,7 @@ Input.defaultProps = {
   value: "",
   setValue: undefined,
   error: {},
+  setError: undefined,
 };
 
 Input.displayName = "Input";

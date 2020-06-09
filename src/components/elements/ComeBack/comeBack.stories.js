@@ -9,7 +9,7 @@ import ComeBack from "../ComeBack";
 storiesOf("Elements/ComeBack", module).add("default", () => (
   <ThemeProvider theme={theme}>
     <Flex bg="red">
-      <ComeBack teste="teste" />
+      <ComeBack />
     </Flex>
   </ThemeProvider>
 ));

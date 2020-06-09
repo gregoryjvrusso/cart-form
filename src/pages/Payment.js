@@ -4,7 +4,7 @@ import { ThemeProvider } from "styled-components";
 import Checkout from "../components/modules/Checkout";
 import theme from "../common/theme";
 
-const App = () => (
+const Payment = () => (
   <ThemeProvider theme={theme}>
     <React.Fragment>
       <GlobalStyles />
@@ -13,4 +13,4 @@ const App = () => (
   </ThemeProvider>
 );
 
-export default App;
+export default Payment;
